@@ -1,12 +1,100 @@
-# React + Vite
+Here's a complete and well-structured `README.md` file for your project, including the demo link you provided:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# Product Management Dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A React-based product management dashboard with CRUD operations using Axios and a JSON server.
 
-## Expanding the ESLint configuration
+## 🚀 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check out the live demo: [https://axios-json-server.vercel.app/](https://axios-json-server.vercel.app/)
+
+## 📦 Features
+
+- Product creation, editing, deletion, and listing
+- Dynamic form validation
+- File upload with image preview (limited to 5MB)
+- Responsive UI using Bootstrap
+- Interactive data chart with live updates
+- Axios integration with JSON server
+
+## 📁 Folder Structure
+
+```
+
+.
+├── assets/
+│   └── css/              # Bootstrap and custom styles
+├── components/
+│   └── Aside.jsx         # Sidebar component
+├── pages/
+│   ├── Home.jsx          # Dashboard page with chart
+│   ├── Form.jsx          # Product form page
+│   └── Table.jsx         # Product table listing
+├── App.jsx               # Main React component with routing and logic
+
+````
+
+## 🛠️ Tech Stack
+
+- React
+- Axios
+- JSON Server (for mock backend)
+- Bootstrap
+
+## 🧠 State Management
+
+React hooks used:
+- `useState` for state variables like products, warehouse selections, etc.
+- `useEffect` for data fetching and live chart updates
+- `useRef` for form input references
+- `useNavigate` for routing
+
+## 📋 Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the local JSON server:
+
+   ```bash
+   npx json-server --watch db.json --port 3000
+   ```
+
+4. Start the React development server:
+
+   ```bash
+   npm start
+   ```
+
+## ⚠️ Notes
+
+* File uploads are limited to 5MB and read as Base64 strings.
+* Be sure to have `json-server` installed globally or use `npx`.
+
+## ✍️ Author
+
+Developed by \[Your Name]
+
+## 📄 License
+
+MIT License
+
+```
+
+---
+
+Let me know if you'd like this saved to a file or customized further (e.g., with screenshots, badges, or GitHub repo links).
+```

@@ -1,8 +1,6 @@
 Here's a complete and well-structured `README.md` file for your project, including the demo link you provided:
 
 ---
-
-```markdown
 # Product Management Dashboard
 
 A React-based product management dashboard with CRUD operations using Axios and a JSON server.
@@ -22,7 +20,7 @@ Check out the live demo: [https://axios-json-server.vercel.app/](https://axios-j
 
 ## 📁 Folder Structure
 
-```
+
 
 .
 ├── assets/
@@ -35,7 +33,7 @@ Check out the live demo: [https://axios-json-server.vercel.app/](https://axios-j
 │   └── Table.jsx         # Product table listing
 ├── App.jsx               # Main React component with routing and logic
 
-````
+
 
 ## 🛠️ Tech Stack
 
@@ -59,7 +57,7 @@ React hooks used:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-````
+
 
 2. Install dependencies:
 
